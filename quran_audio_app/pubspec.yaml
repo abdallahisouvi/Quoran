@@ -1,4 +1,6 @@
-dependencies:
-  flutter:
-    sdk: flutter
-  audioplayers: ^5.2.1
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/data/surahs.json
