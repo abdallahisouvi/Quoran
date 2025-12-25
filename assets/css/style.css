@@ -29,7 +29,7 @@ header {
 }
 
 #surahList li {
-    background: #ffffff;
+    background: #ecfdf5;        /* أخضر فاتح */
     margin-bottom: 8px;
     padding: 14px;
     border-radius: 12px;
@@ -37,18 +37,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     transition: background 0.2s;
 }
 
 #surahList li:hover {
-    background: #e6fffa;
+    background: #d1fae5;        /* أخضر أغمق عند المرور */
 }
 
 #surahList li span {
-    color: #0f766e;
+    color: #047857;             /* رقم السورة */
     font-weight: bold;
 }
+
 
 /* مشغل الصوت السفلي */
 .player {
